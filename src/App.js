@@ -1,23 +1,20 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+import FirstComponent from './components/atoms/firstComponent';
 
 const App = () => {
-  return(
-    <View style={styles.container}>
-      <Text style={styles.textStyle}>Hello React Native</Text>
-    </View>
-  )
+	return (
+		<View style={styles.container}>
+			<FirstComponent />
+		</View>
+	)
 }
 
 const styles = StyleSheet.create({
 	container: {
-		flex: 1, 
-		justifyContent: 'center', 
+		flex: 1,
+		justifyContent: 'center',
 		alignItems: 'center'
-	},
-	textStyle: { 
-		color: 'red', 
-		fontSize: 25 
 	}
 });
 
