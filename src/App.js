@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import FirstComponent from './components/atoms/firstComponent';
+import Product from './components/atoms/product';
 
 const App = () => {
 	return (
 		<View style={styles.container}>
-			<FirstComponent />
+			<Product />
 		</View>
 	)
 }
