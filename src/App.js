@@ -1,12 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Product from './components/atoms/product';
-import Counter from './components/atoms/counter';
+import Car from './components/atoms/car';
 
 const App = () => {
 	return (
 		<View style={styles.container}>
-			<Counter />
+			<Car />
 		</View>
 	)
 }
