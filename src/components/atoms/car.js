@@ -18,7 +18,7 @@ export class car extends Component {
                     style={styles.inputBox}
                     placeholder='Brand'
                     placeholderTextColor='#dddddd'
-                    // value={this.state.car}
+                    value={this.state.car}
                     onChangeText={data => this.setState({
                         car: data
                     })} />
