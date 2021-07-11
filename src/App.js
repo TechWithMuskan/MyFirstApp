@@ -1,21 +1,10 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import Car from './components/atoms/car';
+import Book from './components/molecules/book';
 
 const App = () => {
 	return (
-		<View style={styles.container}>
-			<Car />
-		</View>
+		<Book />
 	)
 }
-
-const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		justifyContent: 'center',
-		alignItems: 'center'
-	}
-});
 
 export default App;
