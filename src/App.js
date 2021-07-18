@@ -1,9 +1,9 @@
 import React from 'react';
-import Book from './components/molecules/book';
+import ReactStyle from './components/organisms/ReactStyle';
 
 const App = () => {
 	return (
-		<Book />
+		<ReactStyle />
 	)
 }
 
