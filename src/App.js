@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactStyle from './components/organisms/ReactStyle';
+import HandleInput from './components/organisms/handleInput'
 
 const App = () => {
 	return (
-		<ReactStyle />
+		<HandleInput />
 	)
 }
 
