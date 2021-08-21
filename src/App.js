@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactStyle from './components/organisms/ReactStyle';
+import ScrollComponent from './components/organisms/ScrollComponent'
 
 const App = () => {
 	return (
-		<ReactStyle />
+		<ScrollComponent />
 	)
 }
 
