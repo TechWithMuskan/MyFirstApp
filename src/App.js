@@ -1,9 +1,9 @@
 import React from 'react';
-import HandleInput from './components/organisms/handleInput'
+import ScrollComponent from './components/organisms/ScrollComponent'
 
 const App = () => {
 	return (
-		<HandleInput />
+		<ScrollComponent />
 	)
 }
 
