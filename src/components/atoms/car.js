@@ -14,6 +14,9 @@ export class car extends Component {
                 <Text style={styles.textStyle}>
                     {this.state.car}
                 </Text>
+                <Text style={styles.textStyle}>
+                    {this.state.car}
+                </Text>
                 <TextInput
                     style={styles.inputBox}
                     placeholder='Brand'
