@@ -1,42 +1,41 @@
 import React from 'react'
-import { View, Text, Image, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, Image, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import Header from '../molecules/Header';
 
-const ScrollComponent = () => {
-
+const ScrollComponent = (props) => {
+    const { navigation } = props;
     const scrollData = [
         {
             pic: 'https://placeimg.com/640/481/arch',
-            title: 'Villa Picture 1'
+            title: 'Picture 1'
         },
         {
             pic: 'https://placeimg.com/640/480/arch',
-            title: 'Villa Picture 2'
+            title: 'Picture 2'
         },
         {
             pic: 'https://placeimg.com/640/479/arch',
-            title: 'Villa Picture 3'
+            title: 'Picture 3'
         },
         {
             pic: 'https://placeimg.com/640/478/arch',
-            title: 'Villa Picture 4'
+            title: 'Picture 4'
         },
         {
-            pic: 'https://placeimg.com/640/477/arch',
-            title: 'Villa Picture 5'
+            pic: 'https://placeimg.com/640/475/arch',
+            title: 'Picture 5'
         },
     ];
 
     return (
-        <ScrollView horizontal>
-            {/* <Header heading="Scroll Component" /> */}
+        <ScrollView>
             {scrollData.map((item =>
-                <View>
+                <TouchableOpacity onPress={() => navigation.navigate('Product')} >
                     <Image
                         source={{ uri: `${item.pic}` }}
                         style={styles.imageStyle} />
                     <Text style={styles.textStyle}>{item.title}</Text>
-                </View>
+                </TouchableOpacity>
             ))}
 
         </ScrollView>
