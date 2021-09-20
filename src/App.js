@@ -1,9 +1,9 @@
 import React from 'react';
-import ScrollComponent from './components/organisms/ScrollComponent'
+import ScreenNavigation from './navigation/screenNavigation';
 
 const App = () => {
 	return (
-		<ScrollComponent />
+		<ScreenNavigation />
 	)
 }
 
