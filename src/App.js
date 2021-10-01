@@ -1,9 +1,9 @@
 import React from 'react';
-import ScreenNavigation from './navigation/screenNavigation';
+import Sidebar from './screens/drawer/Sidebar';
 
 const App = () => {
 	return (
-		<ScreenNavigation />
+		<Sidebar />
 	)
 }
 
