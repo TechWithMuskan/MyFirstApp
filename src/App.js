@@ -1,9 +1,9 @@
 import React from 'react';
-import Sidebar from './screens/drawer/Sidebar';
+import Tabbar from './screens/bottomBar/Tabbar';
 
 const App = () => {
 	return (
-		<Sidebar />
+		<Tabbar />
 	)
 }
 
