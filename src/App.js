@@ -1,10 +1,8 @@
 import React from 'react';
-import Tabbar from './screens/bottomBar/Tabbar';
+import StateExample from './components/molecules/stateExample';
 
 const App = () => {
-	return (
-		<Tabbar />
-	)
-}
+  return <StateExample />;
+};
 
 export default App;
