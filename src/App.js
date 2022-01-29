@@ -1,8 +1,8 @@
 import React from 'react';
-import StateExample from './components/molecules/stateExample';
+import Parent from './components/mounting/parent';
 
 const App = () => {
-  return <StateExample />;
+  return <Parent />;
 };
 
 export default App;
