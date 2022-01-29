@@ -1,10 +1,8 @@
 import React from 'react';
-import Tabbar from './screens/bottomBar/Tabbar';
+import Parent from './components/mounting/parent';
 
 const App = () => {
-	return (
-		<Tabbar />
-	)
-}
+  return <Parent />;
+};
 
 export default App;
