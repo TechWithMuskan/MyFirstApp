@@ -1,8 +1,8 @@
 import React from 'react';
-import Parent from './components/mounting/parent';
+import AxiosCall from './components/api/axiosCall';
 
 const App = () => {
-  return <Parent />;
+  return <AxiosCall />;
 };
 
 export default App;
