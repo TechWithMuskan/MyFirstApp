@@ -34,9 +34,7 @@ const AxiosCall = () => {
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={axiosAPIRequest} style={styles.button1}>
-        <Text ref={textRef} style={styles.title}>
-          Call Axios API
-        </Text>
+        <Text style={styles.title}>Call Axios API</Text>
       </TouchableOpacity>
 
       <FlatList data={users || []} renderItem={ItemView} />

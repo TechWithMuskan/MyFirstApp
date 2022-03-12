@@ -1,8 +1,14 @@
 import React from 'react';
-import AxiosCall from './components/api/axiosCall';
+import {StatusBar} from 'react-native';
+import Icons from './components/atoms/icons';
 
 const App = () => {
-  return <AxiosCall />;
+  return (
+    <>
+      <StatusBar backgroundColor="#3b5998" />
+      <Icons />
+    </>
+  );
 };
 
 export default App;
