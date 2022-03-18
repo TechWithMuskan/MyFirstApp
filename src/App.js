@@ -1,14 +1,8 @@
 import React from 'react';
-import {StatusBar} from 'react-native';
-import Icons from './components/atoms/icons';
+import FlexExample from './components/atoms/flexExample';
 
 const App = () => {
-  return (
-    <>
-      <StatusBar backgroundColor="#3b5998" />
-      <Icons />
-    </>
-  );
+  return <FlexExample />;
 };
 
 export default App;
