@@ -1,8 +1,14 @@
 import React from 'react';
-import FlexExample from './components/atoms/flexExample';
+import {StatusBar} from 'react-native';
+import FlatListExample from './components/organisms/flatListExample';
 
 const App = () => {
-  return <FlexExample />;
+  return (
+    <>
+      <StatusBar backgroundColor="#253439" />
+      <FlatListExample />
+    </>
+  );
 };
 
 export default App;
