@@ -1,13 +1,17 @@
 import React from 'react';
-import {StatusBar} from 'react-native';
-import FlatListExample from './components/organisms/flatListExample';
+import {StatusBar, View} from 'react-native';
+import SectionListExample from './components/organisms/sectionListExample';
 
 const App = () => {
   return (
-    <>
-      <StatusBar backgroundColor="#253439" />
-      <FlatListExample />
-    </>
+    <View
+      style={{
+        padding: 10,
+        backgroundColor: '#1C2539',
+      }}>
+      <StatusBar backgroundColor="#1C2539" />
+      <SectionListExample />
+    </View>
   );
 };
 
