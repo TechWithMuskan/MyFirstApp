@@ -1,17 +1,13 @@
 import React from 'react';
-import {StatusBar, View} from 'react-native';
-import SectionListExample from './components/organisms/sectionListExample';
+import {StatusBar} from 'react-native';
+import Login from './components/atoms/login';
 
 const App = () => {
   return (
-    <View
-      style={{
-        padding: 10,
-        backgroundColor: '#1C2539',
-      }}>
-      <StatusBar backgroundColor="#1C2539" />
-      <SectionListExample />
-    </View>
+    <>
+      <StatusBar backgroundColor="#3b5998" />
+      <Login />
+    </>
   );
 };
 
