@@ -1,12 +1,12 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
-import AsyncStore from './screens/asyncStore';
+import Camera from './screens/camera';
 
 const App = () => {
   return (
     <>
       <StatusBar backgroundColor="#233f49" />
-      <AsyncStore />
+      <Camera />
     </>
   );
 };
