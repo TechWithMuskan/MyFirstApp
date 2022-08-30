@@ -1,6 +1,6 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
-import Camera from './screens/camera';
+import Camera from './screens/datePickerModal';
 
 const App = () => {
   return (

@@ -18,6 +18,7 @@
     "axios": "^0.25.0",
     "react": "17.0.1",
     "react-native": "0.64.0",
+    "react-native-date-picker": "^4.2.5",
     "react-native-gesture-handler": "^1.10.3",
     "react-native-image-picker": "^4.8.4",
     "react-native-reanimated": "^2.2.2",
