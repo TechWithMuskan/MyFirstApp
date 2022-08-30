@@ -1,12 +1,12 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
-import Camera from './screens/datePickerModal';
+import DatePickerModal from './screens/datePickerModal';
 
 const App = () => {
   return (
     <>
       <StatusBar backgroundColor="#233f49" />
-      <Camera />
+      <DatePickerModal />
     </>
   );
 };
