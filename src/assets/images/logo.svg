@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 338.34 351.93" version="1.0">
+  <defs id="defs4">
+    <linearGradient id="linearGradient3743">
+      <stop id="stop3745" stop-color="#fff" stop-opacity="0" offset="0"/>
+      <stop id="stop3747" stop-color="#161b3f" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3717" y2="910.63" gradientUnits="userSpaceOnUse" x2="552.35" y1="751.18" x1="644.4">
+      <stop id="stop3713" stop-color="#fff" offset="0"/>
+      <stop id="stop3715" stop-color="#a9a9a7" stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3725" y2="1070.1" gradientUnits="userSpaceOnUse" x2="583.03" y1="909.61" x1="583.03">
+      <stop id="stop3721" stop-color="#050311" offset="0"/>
+      <stop id="stop3723" stop-color="#121f48" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3733" y2="981.5" gradientUnits="userSpaceOnUse" x2="552.35" y1="946.06" x1="490.98">
+      <stop id="stop3283" stop-color="#8c8c8c" offset="0"/>
+      <stop id="stop3285" stop-color="#1d1d1d" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3741" y2="912.4" xlink:href="#linearGradient3743" spreadMethod="repeat" gradientUnits="userSpaceOnUse" x2="512.46" y1="901.77" x1="506.32"/>
+    <linearGradient id="linearGradient3751" y2="907.09" xlink:href="#linearGradient3743" spreadMethod="repeat" gradientUnits="userSpaceOnUse" x2="509.39" gradientTransform="translate(.000002 .000024)" y1="901.77" x1="512.46"/>
+  </defs>
+  <g id="layer1" fill-rule="evenodd" transform="translate(-387.78 -701.89)">
+    <path id="path3222" stroke-linejoin="round" d="m537 706.89l-6.13 3.54-15.35 150.59-122.74 70.87v10.63l184.12 106.28 128.88-74.39 15.34-161.22-184.12-106.3z" stroke="#000" stroke-linecap="round" stroke-width="10" fill="#050318"/>
+    <path id="path3216" stroke-linejoin="round" d="m515.52 861.02l184.12 106.3 15.34-150.59-184.11-106.3-15.35 150.59z" stroke="#000" stroke-linecap="round" stroke-width="5" fill="#050311"/>
+    <path id="path3218" stroke-linejoin="round" d="m699.64 967.32l-184.12-106.3-122.74 70.87 184.12 106.31 122.74-70.88z" stroke="#000" stroke-linecap="round" stroke-width="5" fill="url(#linearGradient3725)"/>
+    <path id="path3224" stroke-linejoin="round" d="m530.87 993.9l30.68-17.72-61.37-35.43-30.69 17.71 61.38 35.44z" stroke="#000" stroke-linecap="round" stroke-width="5" fill="url(#linearGradient3733)"/>
+    <path id="path3709" d="m521.66 800.79c92.06 34.96 137.33 80.16 177.98 162.99l12.27-145.28-181.04-108.07-9.21 90.36z" fill="url(#linearGradient3717)"/>
+    <path id="path3226" stroke-linejoin="round" d="m515.52 878.74l-46.03 26.57 153.43 88.59 46.03-26.58-153.43-88.58z" stroke="#000" stroke-linecap="round" stroke-width="5" fill="url(#linearGradient3741)"/>
+    <path id="path3749" stroke-linejoin="round" d="m515.52 878.74l-46.03 26.57 153.43 88.59 46.03-26.58-153.43-88.58z" stroke="#000" stroke-linecap="round" stroke-width="5" fill="url(#linearGradient3751)"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>laptop</dc:title>
+        <dc:date>2008-02-11T21:03:23</dc:date>
+        <dc:description>An isometric laptop for your diagrams</dc:description>
+        <dc:source>http://openclipart.org/detail/13663/laptop-by-ericlemerdy</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>ericlemerdy</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>diagram</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>isometric</rdf:li>
+            <rdf:li>laptop</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
