@@ -1,14 +1,8 @@
 import React from 'react';
-import {StatusBar} from 'react-native';
-import Camera from './screens/datePickerModal';
+import VideoExample from './screens/videoExample';
 
 const App = () => {
-  return (
-    <>
-      <StatusBar backgroundColor="#233f49" />
-      <Camera />
-    </>
-  );
+  return <VideoExample />;
 };
 
 export default App;
