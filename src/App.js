@@ -1,8 +1,8 @@
 import React from 'react';
-import VideoExample from './screens/videoExample';
+import SvgExample from './screens/svgExample';
 
 const App = () => {
-  return <VideoExample />;
+  return <SvgExample />;
 };
 
 export default App;
