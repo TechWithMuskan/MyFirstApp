@@ -1,8 +1,8 @@
 import React from 'react';
-import SvgExample from './screens/svgExample';
+import VideoPlayer from './screens/videoPlayer';
 
 const App = () => {
-  return <SvgExample />;
+  return <VideoPlayer />;
 };
 
 export default App;
