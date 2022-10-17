@@ -88,7 +88,6 @@ const VideoPlayer = () => {
   const onLoadEnd = data => {
     setDuration(data.duration);
     setCurrentTime(data.currentTime);
-    console.log('data.currentTime :', data.currentTime);
   };
 
   const onProgress = data => {
@@ -98,7 +97,6 @@ const VideoPlayer = () => {
   const onSeek = data => {
     videoRef.current.seek(data.seekTime);
     setCurrentTime(data.seekTime);
-    console.log('data.seekTime :', data.seekTime);
   };
 
   const onEnd = () => {
